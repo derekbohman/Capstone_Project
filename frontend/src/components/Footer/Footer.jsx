@@ -3,7 +3,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>Copyright © 2022</p>{" "}
+      <p>Rivendell Acupuncture</p>{" "}
+      <p>503-913-2136</p>
     </footer>
   );
 };

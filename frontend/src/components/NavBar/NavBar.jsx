@@ -12,7 +12,7 @@ const Navbar = () => {
       <ul>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <b>Rivendell Acupuncture and Healing</b>
+            <b>Rivendell Acupuncture</b>
           </Link>
         </li>
         <li>
