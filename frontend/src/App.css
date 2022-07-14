@@ -56,3 +56,25 @@ button:hover {
   padding: 3px 7px;
   font-size: 17px;
 }
+
+li {
+  list-style-type: none;
+}
+
+.links {
+  margin-right: 65rem;
+}
+
+.links a {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.links :visited {
+  text-decoration: none;
+  color: black;
+}
+
+.links a :hover {
+  cursor: pointer;
+}
