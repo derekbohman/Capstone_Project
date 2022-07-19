@@ -1,8 +1,8 @@
-from django.urls import path, include
+from django.urls import path
 from registered_users import views
 
 urlpatterns = [
     path('all/', views.get_all_users),
-    path('create/', views.create_user),
+    path('register/', views.register_user),
     path('<int:pk>/', views.profile_settings)
 ]
