@@ -1,4 +1,4 @@
-import "./RegisterPage.css"
+import "./RegisterPage.css";
 import React, { useContext } from "react";
 import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
@@ -7,10 +7,10 @@ const RegisterPage = () => {
   const { registerUser } = useContext(AuthContext);
   const defaultValues = {
     username: "",
-    email: "",
     password: "",
     firstName: "",
     lastName: "",
+    email: "",
   };
   const [formData, handleInputChange, handleSubmit] = useCustomForm(
     defaultValues,
@@ -26,6 +26,15 @@ const RegisterPage = () => {
             type="text"
             name="username"
             value={formData.username}
+            onChange={handleInputChange}
+          />
+        </label>
+        <label>
+          Password:{" "}
+          <input
+            type="text"
+            name="password"
+            value={formData.password}
             onChange={handleInputChange}
           />
         </label>
@@ -53,15 +62,6 @@ const RegisterPage = () => {
             type="text"
             name="email"
             value={formData.email}
-            onChange={handleInputChange}
-          />
-        </label>
-        <label>
-          Password:{" "}
-          <input
-            type="text"
-            name="password"
-            value={formData.password}
             onChange={handleInputChange}
           />
         </label>
