@@ -2,6 +2,7 @@ import "./RegisterPage.css";
 import React, { useContext } from "react";
 import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
+import useAuth from "../../hooks/useAuth";
 
 const RegisterPage = () => {
   const { registerUser } = useContext(AuthContext);
@@ -32,7 +33,7 @@ const RegisterPage = () => {
         <label>
           Password:{" "}
           <input
-            type="text"
+            type="password"
             name="password"
             value={formData.password}
             onChange={handleInputChange}
@@ -69,7 +70,9 @@ const RegisterPage = () => {
           NOTE: Make this an uncommon password with characters, numbers, and
           special characters!
         </p>
-        <button>Register</button>
+        <button type="submit" onClick={useAuth}>
+          Register
+        </button>
       </form>
     </div>
   );

@@ -32,9 +32,9 @@ export const AuthProvider = ({ children }) => {
       let finalData = {
         username: registerData.username,
         password: registerData.password,
-        email: registerData.email,
         first_name: registerData.firstName,
         last_name: registerData.lastName,
+        email: registerData.email,
       };
       let response = await axios.post(`${BASE_URL}/register/`, finalData);
       if (response.status === 201) {
