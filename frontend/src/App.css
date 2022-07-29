@@ -35,7 +35,6 @@ button:hover {
 
 .container {
   margin: 0 auto;
-  max-width: 600px;
   overflow: auto;
   text-align: center;
 }
@@ -61,11 +60,12 @@ li {
   list-style-type: none;
 }
 
-.links {
-  margin-right: 65rem;
-  margin-left: 2rem;
+/* .links {
+  margin-right: 15rem;
+  margin-left: 15rem;
+  align-items: center;
   color: black;
-}
+} */
 
 .links a {
   margin-bottom: 0.5rem;

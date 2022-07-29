@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.treatments {
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  justify-content: center;
+}
+
+.acupuncture,
+.moxibustion,
+.herbalMedicine,
+.cupping,
+.guaSha,
+.massage,
+.nutritionCounseling {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 3rem;
+  text-align: center;
+  justify-content: center;
+}

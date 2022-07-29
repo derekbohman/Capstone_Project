@@ -1,9 +1,65 @@
+.divider {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  height: 75%;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 footer {
+  display: flex;
   position: fixed;
   bottom: 0;
   font-size: 0.5rem;
   left: 0;
-  padding: 1rem;
   text-align: center;
   width: 100%;
+  background: steelblue;
+  box-shadow: 4px 2px 5px gray;
+  color: white;
+  justify-content: center;
+  height: 4rem;
+}
+
+footer button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.4rem 0.5rem;
+}
+
+footer button:hover {
+  background: white;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contactinfo,
+.instagram {
+  display: flex;
+  align-items: center;
+}
+
+.contactinfo,
+.instagram a {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.contactinfo,
+.instagram :visited {
+  text-decoration: none;
+  color: white;
+}
+
+.contactinfo,
+.instagram a :hover {
+  cursor: pointer;
 }
