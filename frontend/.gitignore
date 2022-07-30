@@ -130,11 +130,4 @@ dist
 .pnp.*
 
 # Supporting Documents
-.acupuncture.jpg
-.cupping.jpg
-.guasha.jpg
-.herbs.jpg
-.massage.jpg
-.moxibustion.jpg
-.nutrition.jpg
-.yoga.jpg
+/src/SupportingDocuments
