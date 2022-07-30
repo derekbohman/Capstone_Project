@@ -22,7 +22,6 @@ ul {
 .guaSha,
 .yoga {
   display: flex;
-  border: 1px solid black;
   margin: 1rem;
   padding: 3rem;
   text-align: center;
@@ -35,32 +34,45 @@ ul {
   background-size: cover;
 }
 
+.acupunctureLink {
+  display: flex;
+  height: 20rem;
+  align-items: center;
+  width: 18rem;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fffef2;
+}
+
 .acupuncture {
   background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/acupuncture.jpg);
 }
 
 .herbalMedicine {
-  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/cupping.jpg);
-}
-
-.nutritionCounseling {
-  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/guasha.jpg);
-}
-
-.cupping {
   background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/herbs.jpg);
 }
 
-.moxibustion {
-  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/massage.jpg);
+.nutritionCounseling {
+  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/nutrition.jpg);
 }
 
-.massage {
+.cupping {
+  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/cupping.jpg);
+}
+
+.moxibustion {
   background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/moxibustion.jpg);
 }
 
+.massage {
+  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/massage.jpg);
+}
+
 .guaSha {
-  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/nutrition.jpg);
+  background-image: url(/Users/derekbohman/Documents/devCodeCamp/Homework/Capstone_Project/SupportingDocuments/guasha.jpg);
 }
 
 .yoga {

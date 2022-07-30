@@ -1,5 +1,6 @@
 import "./TreatmentsPage.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TreatmentsPage = () => {
   return (
@@ -7,7 +8,11 @@ const TreatmentsPage = () => {
       <h1>Treatments</h1>
       <div className="treatments">
         <div className="acupuncture">
-          <p>Acupuncture</p>
+          <Link to="/acupuncture">
+            <div className="acupunctureLink">
+              <p>Acupuncture</p>
+            </div>
+          </Link>
         </div>
         <div className="herbalMedicine">
           <p>Herbal Medicine</p>

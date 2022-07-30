@@ -10,6 +10,7 @@ import NewsletterPage from "./pages/NewsletterPage/NewsletterPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import TreatmentsPage from "./pages/TreatmentsPage/TreatmentsPage";
+import AcupuncturePage from "./pages/TreatmentsPage/AcupuncturePage/AcupuncturePage";
 // import UserPage from "./pages/UserPage/UserPage";
 
 // Component Imports
@@ -32,6 +33,7 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/treatments" element={<TreatmentsPage />} />
+        <Route path="/acupuncture" element={<AcupuncturePage />} />
         {/* <Route
           path="/user"
           element={
