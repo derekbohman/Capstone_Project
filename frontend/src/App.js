@@ -22,7 +22,7 @@ import PrivateRoute from "./utils/PrivateRoute";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Navbar />
       {/* <div className="links">
         <li>

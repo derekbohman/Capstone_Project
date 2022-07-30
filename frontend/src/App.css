@@ -19,8 +19,8 @@ p {
 
 button {
   background-color: transparent;
-  border: 2px solid steelblue;
-  color: steelblue;
+  border: 2px solid #013220;
+  color: #013220;
   font-size: 1rem;
   font-family: inherit;
   max-width: 100px;
@@ -29,14 +29,15 @@ button {
 
 button:hover {
   cursor: pointer;
-  color: white;
-  background-color: steelblue;
+  color: #fffef2;
+  background-color: #013220;
 }
 
 .container {
   margin: 0 auto;
   overflow: auto;
   text-align: center;
+  background-color: #fffef2;
 }
 
 .form {
@@ -58,26 +59,4 @@ button:hover {
 
 li {
   list-style-type: none;
-}
-
-/* .links {
-  margin-right: 15rem;
-  margin-left: 15rem;
-  align-items: center;
-  color: black;
-} */
-
-.links a {
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-  color: black;
-}
-
-.links :visited {
-  text-decoration: none;
-  color: black;
-}
-
-.links a :hover {
-  cursor: pointer;
 }

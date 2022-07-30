@@ -7,25 +7,28 @@ const TreatmentsPage = () => {
       <h1>Treatments</h1>
       <div className="treatments">
         <div className="acupuncture">
-          <b>Acupuncture</b>
+          <p>Acupuncture</p>
         </div>
         <div className="herbalMedicine">
-          <b>Herbal Medicine</b>
+          <p>Herbal Medicine</p>
         </div>
         <div className="nutritionCounseling">
-          <b>Nutrition Counseling</b>
+          <p>Nutrition Counseling</p>
         </div>
         <div className="cupping">
-          <b>Cupping</b>
+          <p>Cupping</p>
         </div>
         <div className="moxibustion">
-          <b>Moxibustion</b>
+          <p>Moxibustion</p>
         </div>
         <div className="massage">
-          <b>Massage</b>
+          <p>Massage</p>
         </div>
         <div className="guaSha">
-          <b>Gua Sha</b>
+          <p>Gua Sha</p>
+        </div>
+        <div className="yoga">
+          <p>Yoga</p>
         </div>
       </div>
     </div>

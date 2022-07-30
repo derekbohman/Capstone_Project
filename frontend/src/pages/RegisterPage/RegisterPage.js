@@ -75,6 +75,7 @@ const RegisterPage = () => {
           Register
         </button>
       </form>
+      <div className="registerSpacer"></div>
     </div>
   );
 };

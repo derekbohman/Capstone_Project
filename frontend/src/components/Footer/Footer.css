@@ -1,6 +1,6 @@
 .divider {
   margin-top: 0.5rem;
-  border: 1px solid black;
+  border: 1px solid #fffef2;
   height: 75%;
   justify-content: center;
   margin-left: 5rem;
@@ -9,28 +9,28 @@
 
 footer {
   display: flex;
-  position: fixed;
+  position: relative;
   bottom: 0;
   font-size: 0.5rem;
   left: 0;
   text-align: center;
   width: 100%;
-  background: steelblue;
+  background: #013220;
   box-shadow: 4px 2px 5px gray;
-  color: white;
+  color: #fffef2;
   justify-content: center;
   height: 4rem;
 }
 
 footer button {
   background: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #fffef2;
+  color: #fffef2;
   padding: 0.4rem 0.5rem;
 }
 
 footer button:hover {
-  background: white;
+  background: #fffef2;
   color: steelblue;
   cursor: pointer;
 }
@@ -50,13 +50,13 @@ footer button:hover {
 .instagram a {
   margin-bottom: 0.5rem;
   text-decoration: none;
-  color: white;
+  color: #fffef2;
 }
 
 .contactinfo,
 .instagram :visited {
   text-decoration: none;
-  color: white;
+  color: #fffef2;
 }
 
 .contactinfo,

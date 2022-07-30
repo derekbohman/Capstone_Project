@@ -9,20 +9,60 @@ ul {
 
 .treatments {
   display: grid;
-  grid-template-columns: 15rem 15rem 15rem;
+  grid-template-columns: 20rem 20rem 20rem;
   justify-content: center;
 }
 
 .acupuncture,
-.moxibustion,
 .herbalMedicine,
+.nutritionCounseling,
 .cupping,
-.guaSha,
+.moxibustion,
 .massage,
-.nutritionCounseling {
+.guaSha,
+.yoga {
+  display: flex;
   border: 1px solid black;
   margin: 1rem;
   padding: 3rem;
   text-align: center;
   justify-content: center;
+  height: 20rem;
+  color: #fffef2;
+  font-size: 3rem;
+  align-items: center;
+  filter: grayscale(1);
+  background-size: cover;
+}
+
+.acupuncture {
+  background-image: url(/src/SupportingDocuments/acupuncture.jpg);
+}
+
+.herbalMedicine {
+  background-image: url(/src/SupportingDocuments/herbs.jpg);
+}
+
+.nutritionCounseling {
+  background-image: url(/src/SupportingDocuments/nutrition.jpg);
+}
+
+.cupping {
+  background-image: url(/src/SupportingDocuments/cupping.jpg);
+}
+
+.moxibustion {
+  background-image: url(/src/SupportingDocuments/moxibustion.jpg);
+}
+
+.massage {
+  background-image: url(/src/SupportingDocuments/massage.jpg);
+}
+
+.guaSha {
+  background-image: url(/src/SupportingDocuments/guasha.jpg);
+}
+
+.yoga {
+  background-image: url(/src/SupportingDocuments/yoga.jpg);
 }

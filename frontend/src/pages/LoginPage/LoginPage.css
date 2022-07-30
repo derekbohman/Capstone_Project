@@ -10,3 +10,7 @@
 .register :visited {
   color: black;
 }
+
+.loginSpacer {
+  height: 19.1rem;
+}

@@ -3,15 +3,30 @@
   align-items: center;
 }
 
-.loginButton {
+.links a {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #fffef2;
+}
 
+.links :visited {
+  text-decoration: none;
+  color: #fffef2;
+}
+
+.links a :hover {
+  cursor: pointer;
+}
+
+.loginButton {
+  margin-left: 10rem;
 }
 
 .navBar {
   display: flex;
-  background: steelblue;
+  background: #013220;
   box-shadow: 4px 2px 5px gray;
-  color: white;
+  color: #fffef2;
   margin-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -19,18 +34,19 @@
   justify-content: space-between;
   align-items: center;
   height: 5rem;
+  position: relative;
 }
 
 .navBar button {
   background: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #fffef2;
+  color: #fffef2;
   padding: 0.4rem 0.4rem;
 }
 
 .navBar button:hover {
-  background: white;
-  color: steelblue;
+  background: #fffef2;
+  color: #013220;
   cursor: pointer;
 }
 
