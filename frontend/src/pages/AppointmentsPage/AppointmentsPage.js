@@ -5,6 +5,7 @@ const AppointmentsPage = () => {
   return (
     <div className="container">
       <h1>Appointments</h1>
+      <div className="appointmentsSpacer"></div>
     </div>
   );
 };

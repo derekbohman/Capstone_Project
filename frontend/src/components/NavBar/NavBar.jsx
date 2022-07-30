@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navBar">
       <div className="brand">
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <Link to="/" style={{ textDecoration: "none", color: "#fffef2" }}>
           <p>Caitlynn Didlick, DACM, LAc</p>
         </Link>
       </div>
@@ -24,10 +24,10 @@ const Navbar = () => {
               <Link to="/appointments">Appointments</Link>
             </div>
             <div className="navLink">
-              <Link to="/blog">Blog</Link>
+              <Link to="/login">Login</Link>
             </div>
             <div className="navLink">
-              <Link to="/login">Login</Link>
+              <Link to="/newsletter">Newsletter</Link>
             </div>
             <div className="navLink">
               <Link to="/register">Register</Link>
@@ -35,9 +35,9 @@ const Navbar = () => {
             <div className="navLink">
               <Link to="/treatments">Treatments</Link>
             </div>
-            <div className="navLink">
+            {/* <div className="navLink">
               <Link to="/user">User</Link>
-            </div>
+            </div> */}
           </li>
         </ul>
       </div>

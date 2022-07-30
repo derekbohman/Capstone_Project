@@ -1,6 +1,7 @@
 .links {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .links a {
@@ -35,6 +36,7 @@
   align-items: center;
   height: 5rem;
   position: relative;
+  text-decoration: none;
 }
 
 .navBar button {
@@ -55,9 +57,21 @@
   margin-right: 2rem;
 }
 
-.brand {
+.navLink :hover {
+  filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+
+.brand p {
   display: flex;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   align-items: center;
+  color: #fffef2;
+  text-decoration: none;
+}
+
+.brand p:hover {
+  color: #fffef2;
+  text-decoration: none;
+  filter: drop-shadow(0 0 0.75rem #ffffff);
 }
