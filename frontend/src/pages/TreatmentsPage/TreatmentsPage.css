@@ -30,11 +30,29 @@ ul {
   color: #fffef2;
   font-size: 3rem;
   align-items: center;
-  filter: grayscale(1);
+  filter: grayscale(.75);
   background-size: cover;
 }
 
-.acupunctureLink {
+.acupuncture:hover,
+.herbalMedicine:hover,
+.nutritionCounseling:hover,
+.cupping:hover,
+.moxibustion:hover,
+.massage:hover,
+.guaSha:hover,
+.yoga:hover {
+  filter: grayscale(0);
+}
+
+.acupunctureLink,
+.herbalMedicineLink,
+.nutritionCounselingLink,
+.cuppingLink,
+.moxibustionLink,
+.massageLink,
+.guaShaLink,
+.yogaLink {
   display: flex;
   height: 20rem;
   align-items: center;

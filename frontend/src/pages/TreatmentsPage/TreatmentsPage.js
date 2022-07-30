@@ -8,32 +8,60 @@ const TreatmentsPage = () => {
       <h1>Treatments</h1>
       <div className="treatments">
         <div className="acupuncture">
-          <Link to="/acupuncture">
+          <Link to="/treatments/acupuncture">
             <div className="acupunctureLink">
               <p>Acupuncture</p>
             </div>
           </Link>
         </div>
         <div className="herbalMedicine">
-          <p>Herbal Medicine</p>
+          <Link to="/treatments/herbalMedicine">
+            <div className="herbalMedicineLink">
+              <p>Herbal Medicine</p>
+            </div>
+          </Link>
         </div>
         <div className="nutritionCounseling">
-          <p>Nutrition Counseling</p>
+          <Link to="/treatments/nutritionCounseling">
+            <div className="nutritionCounselingLink">
+              <p>Nutrition Counseling</p>
+            </div>
+          </Link>
         </div>
         <div className="cupping">
-          <p>Cupping</p>
+          <Link to="/treatments/cupping">
+            <div className="cuppingLink">
+              <p>Cupping</p>
+            </div>
+          </Link>
         </div>
         <div className="moxibustion">
-          <p>Moxibustion</p>
+          <Link to="/treatments/moxibustion">
+            <div className="moxibustionLink">
+              <p>Moxibustion</p>
+            </div>
+          </Link>
         </div>
         <div className="massage">
-          <p>Massage</p>
+          <Link to="/treatments/massage">
+            <div className="massageLink">
+              <p>Massage</p>
+            </div>
+          </Link>
         </div>
         <div className="guaSha">
-          <p>Gua Sha</p>
+          <Link to="/treatments/guaSha">
+            <div className="guaShaLink">
+              <p>Gua Sha</p>
+            </div>
+          </Link>
         </div>
         <div className="yoga">
-          <p>Yoga</p>
+          <Link to="/treatments/yoga">
+            <div className="yogaLink">
+              <p>Yoga</p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

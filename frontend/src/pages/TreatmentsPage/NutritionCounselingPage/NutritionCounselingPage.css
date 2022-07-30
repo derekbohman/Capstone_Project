@@ -1,0 +1,17 @@
+.nutritionCounselingSpacer {
+    height: 34.45rem;
+  }
+  
+  .container {
+    min-height: fit-content;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
