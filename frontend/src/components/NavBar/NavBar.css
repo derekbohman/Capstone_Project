@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  padding-right: 3rem;
 }
 
 .links a {
@@ -26,7 +27,6 @@
 .navBar {
   display: flex;
   background: #013220;
-  box-shadow: 4px 2px 5px gray;
   color: #fffef2;
   margin-bottom: 1rem;
   padding-left: 1rem;
@@ -41,15 +41,14 @@
 
 .navBar button {
   background: transparent;
-  border: 2px solid #fffef2;
+  border: none;
   color: #fffef2;
-  padding: 0.4rem 0.4rem;
 }
 
 .navBar button:hover {
-  background: #fffef2;
-  color: #013220;
+  color: #fffef2;
   cursor: pointer;
+  filter: drop-shadow(0 0 1rem #ffffff);
 }
 
 .navLink {
@@ -58,7 +57,7 @@
 }
 
 .navLink :hover {
-  filter: drop-shadow(0 0 0.75rem #ffffff);
+  filter: drop-shadow(0 0 1rem #ffffff);
 }
 
 .brand p {
@@ -73,5 +72,5 @@
 .brand p:hover {
   color: #fffef2;
   text-decoration: none;
-  filter: drop-shadow(0 0 0.75rem #ffffff);
+  filter: drop-shadow(0 0 1rem #ffffff);
 }

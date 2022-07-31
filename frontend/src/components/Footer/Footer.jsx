@@ -5,8 +5,9 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <div className="contactInfo">
-          <p>Caitlynn Didlick, DACM, LAc</p>
-          <p>555-555-5555</p>
+          <p>
+            Caitlynn Didlick, DACM, LAc<br></br>555-555-5555
+          </p>
         </div>
         <div className="divider"></div>
         <div className="instagram">

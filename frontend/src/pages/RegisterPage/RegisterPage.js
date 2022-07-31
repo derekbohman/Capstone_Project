@@ -7,11 +7,12 @@ import useAuth from "../../hooks/useAuth";
 const RegisterPage = () => {
   const { registerUser } = useContext(AuthContext);
   const defaultValues = {
-    username: "",
-    password: "",
     firstName: "",
     lastName: "",
     email: "",
+    username: "",
+    password: "",
+    confirmPassword: "",
   };
   const [formData, handleInputChange, handleSubmit] = useCustomForm(
     defaultValues,
@@ -22,24 +23,6 @@ const RegisterPage = () => {
     <div className="container">
       <h1>Register</h1>
       <form className="form" onSubmit={handleSubmit}>
-        <label>
-          Username:{" "}
-          <input
-            type="text"
-            name="username"
-            value={formData.username}
-            onChange={handleInputChange}
-          />
-        </label>
-        <label>
-          Password:{" "}
-          <input
-            type="password"
-            name="password"
-            value={formData.password}
-            onChange={handleInputChange}
-          />
-        </label>
         <label>
           First Name:{" "}
           <input
@@ -67,6 +50,33 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
+        <label>
+          Username:{" "}
+          <input
+            type="text"
+            name="username"
+            value={formData.username}
+            onChange={handleInputChange}
+          />
+        </label>
+        <label>
+          Password:{" "}
+          <input
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleInputChange}
+          />
+        </label>
+        {/* <label>
+          Confirm Password:{" "}
+          <input
+            type="password"
+            name="password"
+            value={formData.confirmPassword}
+            onChange={handleInputChange}
+          />
+        </label> */}
         <p style={{ fontSize: "12px" }}>
           NOTE: Make this an uncommon password with characters, numbers, and
           special characters!
