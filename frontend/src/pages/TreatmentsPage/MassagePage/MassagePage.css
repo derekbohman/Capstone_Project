@@ -1,17 +1,42 @@
-.massageSpacer {
-    height: 34.45rem;
-  }
-  
-  .massageContainer {
-    min-height: fit-content;
-  }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
+h1,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.massage3 {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  float: left;
+  height: 25rem;
+}
+
+.massage4 {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  float: right;
+  height: 25rem;
+}
+
+.massageContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+.massageBannerContainer {
+  background-image: url(../SupportingDocuments/massage2.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.massageContent p {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
