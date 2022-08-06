@@ -4,7 +4,7 @@ h2 {
 }
 
 .cuppingBannerContainer {
-  background-image: url(../SupportingDocuments/cupping2.jpeg);
+  background-image: url(../SupportingDocuments/cupping2.jpg);
   height: 25rem;
   background-attachment: fixed;
   background-position: center;
@@ -14,14 +14,14 @@ h2 {
 }
 
 .cupping3 {
-  height: 35rem;
+  height: 25rem;
   float: right;
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
 
 .cupping4 {
-  height: 20rem;
+  width: 21rem;
   float: left;
   margin-right: 2rem;
   margin-bottom: 2rem;
