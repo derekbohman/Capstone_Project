@@ -1,17 +1,38 @@
-.herbalMedicineSpacer {
-    height: 34.45rem;
-  }
-  
-  .herbalMedicineContainer {
-    min-height: fit-content;
-  }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
+.herbs2 {
+  float: right;
+  height: 25rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.herbs4 {
+  float: left;
+  height: 25rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.herbalMedicineContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+.herbalMedicineContent p,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.herbalMedicineBannerContainer {
+  background-image: url(../SupportingDocuments/herbs3.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}

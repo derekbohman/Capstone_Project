@@ -18,7 +18,8 @@
   margin-right: 16rem;
 }
 
-.acupunctureContent p {
+.acupunctureContent p,
+h2 {
   margin-bottom: 2rem;
 }
 
@@ -30,19 +31,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2rem;
-}
-
-h2 {
-  margin-bottom: 2rem;
-}
-
-.container {
-  min-height: fit-content;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
 }
 
 ul {
