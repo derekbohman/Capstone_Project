@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className="container">
       <div className="aboutContent">
-        <div className="bannerContainer"></div>
+        <div className="aboutBannerContainer"></div>
         <h1>About Caitlynn</h1>
         <p>
           My name is Caitlynn. I live in the Portland, Oregon metropolitan area.

@@ -7,7 +7,7 @@
   margin-bottom: 2rem;
 }
 
-.bannerContainer {
+.aboutBannerContainer {
   background-image: url(./SupportingDocuments/banner.jpg);
   height: 25rem;
   background-attachment: fixed;
@@ -22,16 +22,9 @@
   float: left;
 }
 
-.container {
-  min-height: fit-content;
-}
-
-h1 {
+h1,
+h2 {
   margin-bottom: 2rem;
-}
-
-.title {
-  justify-content: center;
 }
 
 ul {

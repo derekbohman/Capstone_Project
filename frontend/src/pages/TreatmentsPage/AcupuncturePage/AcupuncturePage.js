@@ -6,12 +6,12 @@ import React from "react";
 const AcupuncturePage = () => {
   return (
     <div className="container">
-      <h1>Acupuncture</h1>
       <div className="acupunctureContent">
         <div className="bannerContainer"></div>
+        <h1>Acupuncture</h1>
         <h2>
-          How Acupuncture Can Relieve Pain and Improve Sleep, Digestion and
-          Emotional Well-being
+          Acupuncture Can Relieve Pain and Improve Sleep, Digestion and
+          Emotional Well-being.
         </h2>
         <p>
           Acupuncture is a 3,000-year-old healing technique of Traditional

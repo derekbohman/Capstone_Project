@@ -1,17 +1,42 @@
-.cuppingSpacer {
-    height: 34.45rem;
-  }
-  
-  .container {
-    min-height: fit-content;
-  }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
+h1,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.cuppingBannerContainer {
+  background-image: url(../SupportingDocuments/cupping2.jpeg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.cupping3 {
+  height: 35rem;
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cupping4 {
+  height: 20rem;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cuppingContent {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+.cuppingContent p {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
