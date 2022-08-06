@@ -3,7 +3,7 @@ import React from "react";
 
 const HerbalMedicinePage = () => {
   return (
-    <div className="container">
+    <div className="herbalMedicineContainer">
       <h1>Herbal Medicine</h1>
       <div className="herbalMedicineSpacer"></div>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 const GuaShaPage = () => {
   return (
-    <div className="container">
+    <div className="guaShaContainer">
       <h1>Gua Sha</h1>
       <div className="guaShaSpacer"></div>
     </div>

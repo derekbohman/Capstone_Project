@@ -5,7 +5,7 @@ import React from "react";
 
 const CuppingPage = () => {
   return (
-    <div className="container">
+    <div className="cuppingContainer">
       <div className="cuppingContent">
         <div className="cuppingBannerContainer"></div>
         <h1>Cupping</h1>

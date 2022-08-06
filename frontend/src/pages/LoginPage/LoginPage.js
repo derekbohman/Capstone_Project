@@ -19,7 +19,7 @@ const LoginPage = () => {
   }, [isServerError]);
 
   return (
-    <div className="container">
+    <div className="loginContainer">
       <h1>Login</h1>
       <form className="form" onSubmit={handleSubmit}>
         <label>

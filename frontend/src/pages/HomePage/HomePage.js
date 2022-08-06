@@ -1,10 +1,13 @@
-import "./HomePage.css"
+import "./HomePage.css";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="container">
-      <h1>Welcome</h1>
+    <div className="homeContainer">
+      <div className="homeContent">
+        <div className="homeBannerContainer"></div>
+        <h1>Caitlynn Didlick, DACM, LAc</h1>
+      </div>
       <div className="homeSpacer"></div>
     </div>
   );

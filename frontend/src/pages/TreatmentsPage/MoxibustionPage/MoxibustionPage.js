@@ -3,7 +3,7 @@ import React from "react";
 
 const MoxibustionPage = () => {
   return (
-    <div className="container">
+    <div className="moxibustionContainer">
       <h1>Moxibustion</h1>
       <div className="moxibustionSpacer"></div>
     </div>

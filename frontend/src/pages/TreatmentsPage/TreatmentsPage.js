@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const TreatmentsPage = () => {
   return (
-    <div className="container">
+    <div className="treatmentsContainer">
       <h1>Treatments</h1>
       <div className="treatments">
         <div className="acupuncture">

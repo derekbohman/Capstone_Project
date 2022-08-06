@@ -27,13 +27,13 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.cuppingContent {
+.cuppingContainer {
   align-items: center;
   margin-left: 16rem;
   margin-right: 16rem;
 }
 
-.cuppingContent p {
+.cuppingContainer p {
   margin-bottom: 2rem;
 }
 

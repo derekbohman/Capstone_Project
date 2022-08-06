@@ -12,7 +12,7 @@
   height: 35rem;
 }
 
-.acupunctureContent {
+.acupunctureContainer {
   align-items: center;
   margin-left: 16rem;
   margin-right: 16rem;
@@ -22,7 +22,7 @@
   margin-bottom: 2rem;
 }
 
-.bannerContainer {
+.acupunctureBannerContainer {
   background-image: url(../SupportingDocuments/acupuncture4.jpg);
   height: 25rem;
   background-attachment: fixed;

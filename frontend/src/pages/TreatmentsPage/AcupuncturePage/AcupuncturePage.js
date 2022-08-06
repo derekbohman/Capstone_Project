@@ -5,9 +5,9 @@ import React from "react";
 
 const AcupuncturePage = () => {
   return (
-    <div className="container">
+    <div className="acupunctureContainer">
       <div className="acupunctureContent">
-        <div className="bannerContainer"></div>
+        <div className="acupunctureBannerContainer"></div>
         <h1>Acupuncture</h1>
         <h2>
           Acupuncture Can Relieve Pain and Improve Sleep, Digestion and

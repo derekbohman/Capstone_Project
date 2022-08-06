@@ -24,7 +24,7 @@ const UserPage = () => {
     fetchCars();
   }, [token]);
   return (
-    <div className="container">
+    <div className="userContainer">
       <h1>Home Page for {user.username}</h1>
       <div className="userSpacer"></div>
     </div>

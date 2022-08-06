@@ -1,16 +1,17 @@
 import "./AboutPage.css";
 import provider from "./SupportingDocuments/provider.jpg";
+import caitlynn from "./SupportingDocuments/caitlynn.jpg";
 import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="container">
+    <div className="aboutContainer">
       <div className="aboutContent">
         <div className="aboutBannerContainer"></div>
-        <h1>About Caitlynn</h1>
+        <h1>About Myself</h1>
         <p>
-          My name is Caitlynn. I live in the Portland, Oregon metropolitan area.
-          My childhood was filled with mountains, rivers, coastlines, and
+          My name is Caitlynn and I live in the Portland, Oregon metropolitan
+          area. My childhood was filled with mountains, rivers, coastlines, and
           forests. Growing up, I always had a passion for cooking and nutrition,
           self-care, gathering wild herbs, and concocting home remedies.
         </p>
@@ -41,6 +42,7 @@ const AboutPage = () => {
           knocking on the door of this tiny and unobtrusive building, and so
           began my deep dive into holistic medicine.
         </p>
+        <img src={caitlynn} alt="Provider" className="caitlynn" />
         <p>
           My own journey of successfully treating my endometriosis through
           alternative medicine is what inspired me to follow a career in women’s
@@ -52,12 +54,16 @@ const AboutPage = () => {
           of restoring the body’s inherent balance.
         </p>
         <p>
-          In 2018, I received my Bachelor of Science in Nutrition from the
-          National University of Natural Medicine in Portland, Oregon.
-          Currently, I am attending the Oregon College of Oriental Medicine and
-          finishing up my Master and Doctorate of Acupuncture and Oriental
-          Medicine. I am also a certified yoga instructor and a novice gardener
-          of western herbs.
+          In 2018, I received my Bachelor of Science in Nutrition degree from
+          the National University of Natural Medicine in Portland, Oregon. And,
+          in 2022, I received my Master and Doctor of Acupuncture and Chinese
+          Medicine degrees from the Oregon College of Oriental Medicine in
+          Portland, Oregon. I am also a certified yoga instructor with many
+          hours of experience in both instruction and program development.
+        </p>
+        <p>
+          I am a novice gardener of western herbs and enjoy playing my violin,
+          drawing and painting, and being in nature often.
         </p>
       </div>
     </div>
