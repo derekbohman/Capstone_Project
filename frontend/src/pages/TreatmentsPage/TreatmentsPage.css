@@ -30,7 +30,7 @@ ul {
   color: #fffef2;
   font-size: 3rem;
   align-items: center;
-  filter: grayscale(.75);
+  filter: grayscale(0.75);
   background-size: cover;
 }
 
@@ -66,33 +66,33 @@ a {
 }
 
 .acupuncture {
-  background-image: url(/frontend/src/components/SupportingDocuments/acupuncture.jpg);
+  background-image: url(./SupportingDocuments/acupuncture.jpg);
 }
 
 .herbalMedicine {
-  background-image: url(/frontend/src/components/SupportingDocuments/herbs.jpg);
+  background-image: url(./SupportingDocuments/herbs.jpg);
 }
 
 .nutritionCounseling {
-  background-image: url(/frontend/src/components/SupportingDocuments/nutrition.jpg);
+  background-image: url(./SupportingDocuments/nutrition.jpg);
 }
 
 .cupping {
-  background-image: url(/frontend/src/components/SupportingDocuments/cupping.jpg);
+  background-image: url(./SupportingDocuments/cupping.jpg);
 }
 
 .moxibustion {
-  background-image: url(/frontend/src/components/SupportingDocuments/moxibustion.jpg);
+  background-image: url(./SupportingDocuments/moxibustion.jpg);
 }
 
 .massage {
-  background-image: url(/frontend/src/components/SupportingDocuments/massage.jpg);
+  background-image: url(./SupportingDocuments/massage.jpg);
 }
 
 .guaSha {
-  background-image: url(/frontend/src/components/SupportingDocuments/guasha.jpg);
+  background-image: url(./SupportingDocuments/guasha.jpg);
 }
 
 .yoga {
-  background-image: url(/frontend/src/components/SupportingDocuments/yoga.jpg);
+  background-image: url(./SupportingDocuments/yoga.jpg);
 }

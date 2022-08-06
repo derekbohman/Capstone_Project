@@ -12,13 +12,12 @@ const RegisterPage = () => {
     email: "",
     username: "",
     password: "",
-    confirmPassword: "",
+    // confirmPassword: "",
   };
   const [formData, handleInputChange, handleSubmit] = useCustomForm(
     defaultValues,
     registerUser
   );
-
   return (
     <div className="container">
       <h1>Register</h1>
@@ -81,6 +80,7 @@ const RegisterPage = () => {
           NOTE: Make this an uncommon password with characters, numbers, and
           special characters!
         </p>
+        {/* changes here */}
         <button type="submit" onClick={useAuth}>
           Register
         </button>

@@ -35,7 +35,7 @@ export const AuthProvider = ({ children }) => {
         email: registerData.email,
         username: registerData.username,
         password: registerData.password,
-        confirmPassword: registerData.password,
+        // confirmPassword: registerData.confirmPassword,
       };
       let response = await axios.post(`${BASE_URL}/register/`, finalData);
       if (response.status === 201) {

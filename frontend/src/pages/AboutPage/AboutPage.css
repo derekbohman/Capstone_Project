@@ -1,13 +1,36 @@
-.aboutSpacer {
-  height: 34.45rem;
+.aboutContent {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+.aboutContent p {
+  margin-bottom: 2rem;
+}
+
+.bannerContainer {
+  background-image: url(./SupportingDocuments/banner.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.provider {
+  height: 35rem;
+  float: left;
 }
 
 .container {
   min-height: fit-content;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 .title {
-  display: flex;
   justify-content: center;
 }
 

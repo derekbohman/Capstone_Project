@@ -43,10 +43,16 @@ function App() {
         <Route path="/treatments/acupuncture" element={<AcupuncturePage />} />
         <Route path="/treatments/cupping" element={<CuppingPage />} />
         <Route path="/treatments/guaSha" element={<GuaShaPage />} />
-        <Route path="/treatments/herbalMedicine" element={<HerbalMedicinePage />} />
+        <Route
+          path="/treatments/herbalMedicine"
+          element={<HerbalMedicinePage />}
+        />
         <Route path="/treatments/massage" element={<MassagePage />} />
         <Route path="/treatments/moxibustion" element={<MoxibustionPage />} />
-        <Route path="/treatments/nutritionCounseling" element={<NutritionCounselingPage />} />
+        <Route
+          path="/treatments/nutritionCounseling"
+          element={<NutritionCounselingPage />}
+        />
         <Route path="/treatments/yoga" element={<YogaPage />} />
         {/* <Route
           path="/user"
