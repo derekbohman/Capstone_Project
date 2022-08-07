@@ -17,22 +17,22 @@ const Navbar = () => {
       <div className="links">
         <ul className="linksList">
           <li>
-            <div className="navLink">
+            <div className="aboutNavLink">
               <Link to="/about">About</Link>
             </div>
-            <div className="navLink">
+            <div className="appointmentsNavLink">
               <Link to="/appointments">Appointments</Link>
             </div>
             {/* <div className="navLink">
               <Link to="/login">Login</Link>
             </div> */}
-            <div className="navLink">
+            <div className="newsletterNavLink">
               <Link to="/newsletter">Newsletter</Link>
             </div>
-            <div className="navLink">
+            <div className="registerNavLink">
               <Link to="/register">Register</Link>
             </div>
-            <div className="navLink">
+            <div className="treatmentsNavLink">
               <Link to="/treatments">Treatments</Link>
             </div>
             {/* <div className="navLink">

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer">
         <div className="contactInfo">
           <p>
-            Caitlynn Didlick, DACM, LAc<br></br>555-555-5555
+            Caitlynn Didlick, DACM, LAc<br></br>503-913-2136
           </p>
         </div>
         <div className="divider"></div>

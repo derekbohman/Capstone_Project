@@ -1,17 +1,35 @@
-.yogaSpacer {
-    height: 34.45rem;
-  }
-  
-  .yogaContainer {
-    min-height: fit-content;
-  }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
+h1,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.yoga4 {
+  width: 20rem;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.yogaContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+.yogaBannerContainer {
+  background-image: url(../SupportingDocuments/yoga2.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.yogaContainer p {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}

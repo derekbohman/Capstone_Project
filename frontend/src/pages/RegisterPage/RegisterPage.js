@@ -18,6 +18,7 @@ const RegisterPage = () => {
     defaultValues,
     registerUser
   );
+
   return (
     <div className="registerContainer">
       <h1>Register</h1>
@@ -71,7 +72,7 @@ const RegisterPage = () => {
           Confirm Password:{" "}
           <input
             type="password"
-            name="password"
+            name="confirmPassword"
             value={formData.confirmPassword}
             onChange={handleInputChange}
           />
@@ -80,7 +81,6 @@ const RegisterPage = () => {
           NOTE: Make this an uncommon password with characters, numbers, and
           special characters!
         </p>
-        {/* changes here */}
         <button type="submit" onClick={useAuth}>
           Register
         </button>

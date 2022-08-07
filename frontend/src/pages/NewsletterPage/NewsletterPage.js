@@ -1,7 +1,7 @@
-import "./NewsletterPage.css"
+import "./NewsletterPage.css";
 import React from "react";
 
-const BlogPage = () => {
+const NewsletterPage = () => {
   return (
     <div className="newsletterContainer">
       <h1>Newsletter</h1>
@@ -10,4 +10,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default NewsletterPage;
