@@ -25,17 +25,32 @@ const ContactUs = () => {
   };
 
   return (
-    <form className="form" ref={form} onSubmit={sendEmail}>
-      <div className="contactUsContainer">
+    <div className="contactUsContainer">
+      <form className="form" ref={form} onSubmit={sendEmail}>
         <label>
-          Name: <input type="text" name="user_name" value={form.userName} />
+          First Name:{" "}
+          <input
+            type="text"
+            name="user_name"
+            className="inputName"
+            value={form.userName}
+          />
         </label>
         <label>
-          Email: <input type="email" name="user_email" value={form.userEmail} />
+          Email:{" "}
+          <input
+            type="email"
+            name="user_email"
+            className="inputEmail"
+            value={form.userEmail}
+          />
         </label>
-        <input type="submit" value="Send" />
-      </div>
-    </form>
+        {/* <input type="submit" className="submitButton" value="Send" /> */}
+        <button type="submit" className="submitButton">
+          Send
+        </button>
+      </form>
+    </div>
   );
 };
 

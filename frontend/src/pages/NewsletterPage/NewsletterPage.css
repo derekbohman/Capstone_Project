@@ -1,3 +1,29 @@
-.newsletterSpacer {
-  height: 30.45rem;
+.newsletterContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  margin-bottom: 2rem;
+}
+
+.newsletterContent p,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.newsletterBannerContainer {
+  background-image: url(../NewsletterPage/SupportingDocuments/newsletter3.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.newsletter2 {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  float: right;
+  height: 25rem;
 }
