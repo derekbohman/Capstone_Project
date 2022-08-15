@@ -1,9 +1,12 @@
 import "./CuppingPage.css";
 import cupping3 from "../SupportingDocuments/cupping3.jpg";
 import cupping4 from "../SupportingDocuments/cupping4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const CuppingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="cuppingContainer">
       <div className="cuppingContent">

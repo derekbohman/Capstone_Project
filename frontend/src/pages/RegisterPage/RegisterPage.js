@@ -1,10 +1,13 @@
 import "./RegisterPage.css";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
 import useAuth from "../../hooks/useAuth";
 
 const RegisterPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { registerUser } = useContext(AuthContext);
   const defaultValues = {
     firstName: "",

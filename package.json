@@ -1,1 +1,7 @@
-{}
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@fullcalendar/daygrid": "^5.11.2",
+    "@fullcalendar/react": "^5.11.2"
+  }
+}

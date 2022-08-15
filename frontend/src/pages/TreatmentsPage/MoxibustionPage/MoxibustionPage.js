@@ -1,9 +1,12 @@
 import "./MoxibustionPage.css";
 import moxibustion3 from "../SupportingDocuments/moxibustion3.jpg";
 import moxibustion4 from "../SupportingDocuments/moxibustion4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const MoxibustionPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="moxibustionContainer">
       <div className="moxibustionContent">

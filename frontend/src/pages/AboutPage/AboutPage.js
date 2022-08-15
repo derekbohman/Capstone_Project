@@ -1,9 +1,12 @@
 import "./AboutPage.css";
 import provider from "./SupportingDocuments/provider.jpg";
 import caitlynn from "./SupportingDocuments/caitlynn.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="aboutContainer">
       <div className="aboutContent">

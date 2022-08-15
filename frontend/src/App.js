@@ -1,5 +1,7 @@
 // General Imports
 import { Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+
 import "./App.css";
 
 // Pages Imports
@@ -28,6 +30,9 @@ import Footer from "./components/Footer/Footer";
 // import PrivateRoute from "./utils/PrivateRoute";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container">
       <Navbar />

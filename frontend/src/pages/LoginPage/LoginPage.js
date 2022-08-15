@@ -18,6 +18,10 @@ const LoginPage = () => {
     }
   }, [isServerError]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="loginContainer">
       <h1>Login</h1>
@@ -43,7 +47,9 @@ const LoginPage = () => {
         {isServerError ? (
           <p className="error">Login failed, incorrect credentials!</p>
         ) : null}
-        <Link to="/register" className="register">Click to register</Link>
+        <Link to="/register" className="register">
+          Click to register
+        </Link>
         <button>Login</button>
       </form>
       <div className="loginSpacer"></div>

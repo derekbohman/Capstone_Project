@@ -1,9 +1,12 @@
 import "./NutritionCounselingPage.css";
 import nutrition3 from "../SupportingDocuments/nutrition3.jpg";
 import nutrition4 from "../SupportingDocuments/nutrition4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const NutritionCounselingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="nutritionCounselingContainer">
       <div className="nutritionCounselingContent">

@@ -1,9 +1,12 @@
 import "./MassagePage.css";
 import massage3 from "../SupportingDocuments/massage3.jpg";
 import massage4 from "../SupportingDocuments/massage4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const MassagePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="massageContainer">
       <div className="massageContent">

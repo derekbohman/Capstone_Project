@@ -1,9 +1,12 @@
 import "./GuaShaPage.css";
 import guaSha3 from "../SupportingDocuments/guaSha3.jpg";
 import guaSha4 from "../SupportingDocuments/guaSha4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const GuaShaPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="guaShaContainer">
       <div className="guaShaContent">

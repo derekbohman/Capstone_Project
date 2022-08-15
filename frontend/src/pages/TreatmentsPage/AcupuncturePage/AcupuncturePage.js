@@ -1,9 +1,12 @@
 import "./AcupuncturePage.css";
 import acupuncture2 from "../SupportingDocuments/acupuncture2.jpg";
 import acupuncture3 from "../SupportingDocuments/acupuncture3.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const AcupuncturePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="acupunctureContainer">
       <div className="acupunctureContent">

@@ -1,7 +1,10 @@
 import "./HomePage.css";
-import React from "react";
+import React, { useEffect } from "react";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="homeContainer">
       <div className="homeContent">

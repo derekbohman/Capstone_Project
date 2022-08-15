@@ -1,9 +1,12 @@
 import "./HerbalMedicinePage.css";
 import herbs2 from "../SupportingDocuments/herbs2.jpg";
 import herbs4 from "../SupportingDocuments/herbs4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const HerbalMedicinePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="herbalMedicineContainer">
       <div className="herbalMedicineContent">

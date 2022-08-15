@@ -1,8 +1,11 @@
 import "./YogaPage.css";
 import yoga4 from "../SupportingDocuments/yoga4.jpg";
-import React from "react";
+import React, { useEffect } from "react";
 
 const YogaPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="yogaContainer">
       <div className="yogaContent">
