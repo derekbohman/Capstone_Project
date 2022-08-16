@@ -7,7 +7,7 @@ import "./App.css";
 // Pages Imports
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
-import AppointmentsPage from "./pages/AppointmentsPage/AppointmentsPage";
+import ConsultationPage from "./pages/ConsultationPage/ConsultationPage";
 import NewsletterPage from "./pages/NewsletterPage/NewsletterPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
@@ -39,7 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/appointments" element={<AppointmentsPage />} />
+        <Route path="/consultation" element={<ConsultationPage />} />
         <Route path="/newsletter" element={<NewsletterPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/register" element={<RegisterPage />} />

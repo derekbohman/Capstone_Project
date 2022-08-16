@@ -1,0 +1,21 @@
+.consultationContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  margin-bottom: 2rem;
+}
+
+.consultationContent p,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.consultationBannerContainer {
+  background-image: url(../NewsletterPage/SupportingDocuments/newsletter3.jpg);
+  height: 25rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}

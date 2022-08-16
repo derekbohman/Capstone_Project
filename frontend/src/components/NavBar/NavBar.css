@@ -96,7 +96,7 @@
 }
 
 .aboutNavLink,
-.appointmentsNavLink,
+.consultationNavLink,
 .newsletterNavLink,
 .registerNavLink,
 .treatmentsNavLink {
@@ -105,7 +105,7 @@
 }
 
 .aboutNavLink:hover,
-.appointmentsNavLink:hover,
+.consultationNavLink:hover,
 .newsletterNavLink:hover,
 .registerNavLink:hover,
 .treatmentsNavLink:hover {

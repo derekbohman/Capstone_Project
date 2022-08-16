@@ -1,16 +1,19 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import "./Newsletter.css";
 
-const ContactUs = () => {
+const Newsletter = () => {
   const form = useRef();
+  const [firstName, setFirstName] = useState("");
+  const [email, setEmail] = useState("");
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (event) => {
+    event.preventDefault();
 
     emailjs
       .sendForm(
         "service_m59v9g5",
-        "contact_form",
+        "newsletter_form",
         form.current,
         "-RZSKyHv72ksCKUPN"
       )
@@ -22,27 +25,29 @@ const ContactUs = () => {
           console.log(error.text);
         }
       );
+    setFirstName("");
+    setEmail("");
   };
 
   return (
-    <div className="contactUsContainer">
+    <div className="newsletterContainer">
       <form className="form" ref={form} onSubmit={sendEmail}>
         <label>
-          First Name:{" "}
+          First Name:{""}
           <input
             type="text"
             name="user_name"
-            className="inputName"
-            value={form.userName}
+            onChange={(event) => setFirstName(event.target.value)}
+            value={firstName}
           />
         </label>
         <label>
-          Email:{" "}
+          Email:{""}
           <input
             type="email"
             name="user_email"
-            className="inputEmail"
-            value={form.userEmail}
+            onChange={(event) => setEmail(event.target.value)}
+            value={email}
           />
         </label>
         {/* <input type="submit" className="submitButton" value="Send" /> */}
@@ -54,4 +59,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Newsletter;

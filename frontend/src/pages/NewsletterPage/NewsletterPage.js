@@ -1,6 +1,6 @@
 import "./NewsletterPage.css";
 import React, { useEffect } from "react";
-import ContactUs from "../../components/ContactUs/ContactUs";
+import Newsletter from "../../components/Newsletter/Newsletter";
 // import newsletter2 from "../NewsletterPage/SupportingDocuments/newsletter2.jpg";
 
 const NewsletterPage = () => {
@@ -25,7 +25,7 @@ const NewsletterPage = () => {
           that I'm currently studying and researching, please sign up for my
           newsletter.
         </p>
-        <ContactUs />
+        <Newsletter />
         <div className="newsletterSpacer"></div>
       </div>
     </div>
