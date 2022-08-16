@@ -30,7 +30,7 @@ const ConsultationPage = () => {
         </p>
         <p>
           Please fill out the form below to choose the best date and time that
-          works for you to come into the office, and you will receive and email
+          works for you to come into the office, and you will receive an email
           confirmation.
         </p>
         <Consultation />
