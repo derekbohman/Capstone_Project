@@ -8,6 +8,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import ConsultationPage from "./pages/ConsultationPage/ConsultationPage";
+import InventoryPage from "./pages/InventoryPage/InventoryPage";
 import NewsletterPage from "./pages/NewsletterPage/NewsletterPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
@@ -40,6 +41,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/consultation" element={<ConsultationPage />} />
+        <Route path="/inventory" element={<InventoryPage />} />
         <Route path="/newsletter" element={<NewsletterPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/register" element={<RegisterPage />} />
