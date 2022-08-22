@@ -53,7 +53,7 @@
 
 .aboutNavLink,
 .consultationNavLink,
-.inventoryNavLink,
+.productsNavLink,
 .newsletterNavLink,
 .registerNavLink,
 .treatmentsNavLink {
@@ -63,7 +63,7 @@
 
 .aboutNavLink:hover,
 .consultationNavLink:hover,
-.inventoryNavLink:hover,
+.productsNavLink:hover,
 .newsletterNavLink:hover,
 .registerNavLink:hover,
 .treatmentsNavLink:hover {

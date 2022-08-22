@@ -1,0 +1,86 @@
+.productsContainer {
+  align-items: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  margin-bottom: 2rem;
+}
+
+.productsContent p,
+h2 {
+  margin-bottom: 2rem;
+}
+
+.productsContainer {
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  justify-content: center;
+}
+
+.herbs,
+.tinctures,
+.guaShaTools,
+.yogaEquipment {
+  display: flex;
+  margin: 1rem;
+  padding: 3rem;
+  text-align: center;
+  justify-content: center;
+  height: 15rem;
+  color: #fffef2;
+  font-size: 3rem;
+  align-items: center;
+  filter: grayscale(0.75);
+  background-size: cover;
+}
+
+.herbs:hover,
+.tinctures:hover,
+.guaShaTools:hover,
+.yogaEquipment:hover {
+  filter: grayscale(0);
+}
+
+.herbsLink,
+.tincturesLink,
+.guaShaToolsLink,
+.yogaEquipmentLink {
+  display: flex;
+  height: 20rem;
+  align-items: center;
+  width: 18rem;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fffef2;
+}
+
+.herbs {
+  background-image: url(../TreatmentsPage/SupportingDocuments/nutrition.jpg);
+}
+
+.tinctures {
+  background-image: url(../TreatmentsPage/SupportingDocuments/herbs.jpg);
+}
+
+.guaShaTools {
+  background-image: url(../TreatmentsPage/SupportingDocuments/guasha.jpg);
+}
+
+.yogaEquipment {
+  background-image: url(../TreatmentsPage/SupportingDocuments/yoga.jpg);
+}
