@@ -15,7 +15,6 @@ const RegisterPage = () => {
     email: "",
     username: "",
     password: "",
-    // confirmPassword: "",
   };
   const [formData, handleInputChange, handleSubmit] = useCustomForm(
     defaultValues,
@@ -71,15 +70,6 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        {/* <label>
-          Confirm Password:{" "}
-          <input
-            type="password"
-            name="confirmPassword"
-            value={formData.confirmPassword}
-            onChange={handleInputChange}
-          />
-        </label> */}
         <p style={{ fontSize: "12px" }}>
           NOTE: Make this an uncommon password with characters, numbers, and
           special characters!

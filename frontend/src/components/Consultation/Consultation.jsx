@@ -72,7 +72,6 @@ const Consultation = () => {
             value={time}
           />
         </label>
-        {/* <input type="submit" className="submitButton" value="Send" /> */}
         <button type="submit" className="submitButton">
           Send
         </button>
