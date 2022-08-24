@@ -6,4 +6,4 @@ class Registered_User(models.Model):
     password = models.CharField(max_length=255, null=True)
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
-    email_address = models.EmailField()
+    email_address = models.EmailField(max_length=255)
