@@ -1,7 +1,6 @@
 // General Imports
 import { Routes, Route } from "react-router-dom";
 import React, { useEffect } from "react";
-
 import "./App.css";
 
 // Pages Imports
@@ -21,14 +20,12 @@ import MassagePage from "./pages/TreatmentsPage/MassagePage/MassagePage";
 import MoxibustionPage from "./pages/TreatmentsPage/MoxibustionPage/MoxibustionPage";
 import NutritionCounselingPage from "./pages/TreatmentsPage/NutritionCounselingPage/NutritionCounselingPage";
 import YogaPage from "./pages/TreatmentsPage/YogaPage/YogaPage";
-// import UserPage from "./pages/UserPage/UserPage";
 
 // Component Imports
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
 // Util Imports
-// import PrivateRoute from "./utils/PrivateRoute";
 
 function App() {
   useEffect(() => {
@@ -61,14 +58,6 @@ function App() {
           element={<NutritionCounselingPage />}
         />
         <Route path="/treatments/yoga" element={<YogaPage />} />
-        {/* <Route
-          path="/user"
-          element={
-            <PrivateRoute>
-              <UserPage />
-            </PrivateRoute>
-          }
-        /> */}
       </Routes>
       <Footer />
     </div>

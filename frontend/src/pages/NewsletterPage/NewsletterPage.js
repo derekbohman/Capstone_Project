@@ -1,7 +1,6 @@
 import "./NewsletterPage.css";
 import React, { useEffect } from "react";
 import Newsletter from "../../components/Newsletter/Newsletter";
-// import newsletter2 from "../NewsletterPage/SupportingDocuments/newsletter2.jpg";
 
 const NewsletterPage = () => {
   useEffect(() => {
@@ -12,7 +11,6 @@ const NewsletterPage = () => {
       <div className="newsletterContent">
         <div className="newsletterBannerContainer"></div>
         <h1>Newsletter</h1>
-        {/* <img src={newsletter2} className="newsletter2" /> */}
         <p>
           I love speaking with people about the things I've learned and
           experienced in the healthcare field. I find that, the more that people

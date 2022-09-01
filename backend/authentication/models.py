@@ -13,4 +13,5 @@ class User(AbstractUser):
     '''
     # Example (note import of models above that is commented out)
     # this will add a column to the user table
-    appointment_date = models.CharField(max_length=255, default="No appointment scheduled")
+    appointment_date = models.CharField(
+        max_length=255, default="No appointment scheduled")
